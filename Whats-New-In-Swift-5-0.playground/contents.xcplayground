@@ -3,6 +3,7 @@
     <pages>
         <page name='Introduction'/>
         <page name='Raw strings'/>
+        <page name='Dynamically callable types'/>
         <page name='Handling future enum cases'/>
         <page name='Checking for integer multiples'/>
         <page name='Counting matching items in a sequence'/>

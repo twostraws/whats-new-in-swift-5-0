@@ -3,6 +3,7 @@
 This is an Xcode playground that demonstrates the new features introduced in Swift 5.0: 
 
 * Raw strings
+* Dynamically callable types
 * Handling future enum cases
 * Checking for integer multiples
 * Counting matching items in a sequence
