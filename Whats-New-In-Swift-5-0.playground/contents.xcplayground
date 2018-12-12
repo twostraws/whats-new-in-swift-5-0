@@ -5,6 +5,7 @@
         <page name='Raw strings'/>
         <page name='Dynamically callable types'/>
         <page name='Handling future enum cases'/>
+        <page name='Flattening nested optionals resulting from try?'/>
         <page name='Checking for integer multiples'/>
         <page name='Counting matching items in a sequence'/>
         <page name='Transforming and unwrapping dictionary values'/>

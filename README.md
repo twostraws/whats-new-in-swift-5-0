@@ -5,6 +5,7 @@ This is an Xcode playground that demonstrates the new features introduced in Swi
 * Raw strings
 * Dynamically callable types
 * Handling future enum cases
+* Flattening nested optionals resulting from try?
 * Checking for integer multiples
 * Counting matching items in a sequence
 * Transforming and unwrapping dictionary values with compactMapValues()
@@ -15,4 +16,4 @@ If you hit problems or have questions, you're welcome to tweet me [@twostraws](h
 
 **Note:** Until a version of Xcode ships with Swift 5.0, you should [download the latest Swift trunk development snapshot](https://swift.org/download/) and activate it inside your current Xcode version.
 
-![Screenshot of Xcode 10.0 running this playground.](playground-screenshot.png)
+![Screenshot of Xcode 10.1 running this playground.](playground-screenshot.png)
