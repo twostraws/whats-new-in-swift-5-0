@@ -3,6 +3,8 @@
     <pages>
         <page name='Introduction'/>
         <page name='Raw strings'/>
+        <page name='A standard Result type'/>
+        <page name='Customizing string interpolation'/>
         <page name='Dynamically callable types'/>
         <page name='Handling future enum cases'/>
         <page name='Flattening nested optionals resulting from try?'/>
