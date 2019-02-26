@@ -33,6 +33,8 @@ extension String.StringInterpolation {
 
  Your custom interpolation method can take as many parameters as you need, labeled or unlabeled. For example, we could add an interpolation to print numbers using various styles, like this:
 */
+import Foundation
+
 extension String.StringInterpolation {
     mutating func appendInterpolation(_ number: Int, style: NumberFormatter.Style) {
         let formatter = NumberFormatter()
