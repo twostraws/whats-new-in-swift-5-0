@@ -14,7 +14,7 @@ struct User {
     var age: Int
 }
 /*:
- If we wanted to add a special string interpolation for that so that we printed users neatly, we would add an extension to `String.StringInterpolation` with a new `appendInterpolation()` method. Swift already has several of these built in, and users the interpolation *type* – in this case `User` to figure out which method to call.
+ If we wanted to add a special string interpolation for that so that we printed users neatly, we would add an extension to `String.StringInterpolation` with a new `appendInterpolation()` method. Swift already has several of these built in, and uses the interpolation *type* – in this case `User` to figure out which method to call.
 
  In this case, we’re going to add an implementation that puts the user’s name and age into a single string, then calls one of the built-in `appendInterpolation()` methods to add that to our string, like this:
 */
