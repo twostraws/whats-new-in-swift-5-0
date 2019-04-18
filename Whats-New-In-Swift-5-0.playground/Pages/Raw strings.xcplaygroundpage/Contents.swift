@@ -1,19 +1,18 @@
 /*:
- [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
+ [< Anterior](@previous)           [Home](Introduction)           [Próximo >](@next)
 
  ## Raw strings
+ [SE-0200](https://github.com/apple/swift-evolution/blob/master/proposals/0200-raw-string-escaping.md) adicionado habilidade de criar raw strings, onde barras invertidas e marcas de citação são interpretadas como simbolos literais ao inves de caracteres de escape. Isso faz com que o numero de caso de uso seja mais facil, portanto expressoes regulares irão se beneficiar.
 
- [SE-0200](https://github.com/apple/swift-evolution/blob/master/proposals/0200-raw-string-escaping.md) added the ability to create raw strings, where backslashes and quote marks are interpreted as those literal symbols rather than escapes characters or string terminators. This makes a number of use cases more easy, but regular expressions in particular will benefit.
-
- To use raw strings, place one or more `#` symbols before your strings, like this:
+ Para usar raw strings, coloque um ou mais `#` antes da sua string, como abaixo:
 */
-    let rain = #"The "rain" in "Spain" falls mainly on the Spaniards."#
+    let rain = #"A "chuva" na "Espanha" cai principalmente sobre os Espanhóis"#
 /*:
- The `#` symbols at the start and end of the string become part of the string delimiter, so Swift understands that the standalone quote marks around “rain” and “Spain” should be treated as literal quote marks rather than ending the string.
+ Os `#` do inicio e ao final tornam-se parte de delimitadores da string, então o Swift entende que as marcas de citação independentes em torno de “chuva” e “Espanha” deveriam ser tratadas como marcas de citações literais be treated em vez de terminar a string.
 
- Raw strings allow you to use backslashes too:
+ Raw strings deixa você usar barras invertidas também:
 */
-    let keypaths = #"Swift keypaths such as \Person.name hold uninvoked references to properties."#
+    let keypaths = #"Swift keypaths como \Person.name mantem referencia de propriedades."#
 /*:
  That treats the backslash as being a literal character in the string, rather than an escape character. This in turn means that string interpolation works differently:
 */
@@ -48,5 +47,5 @@
  
  &nbsp;
 
- [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
+ [< Anterior](@previous)           [Home](Introduction)           [Próximo >](@next)
  */
